@@ -1,0 +1,21 @@
+.resource {
+  margin-top: 40px;
+  width: 285px;
+  height: 330px;
+  margin: 20px;
+}
+.resource__img {
+  height: 150px;
+  width: 250px;
+  margin: 8px;
+  border-radius: 10px;
+}
+.resource__info {
+  display: flex;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+.resource__text {
+  margin-left: 15px;
+  color: black;
+}

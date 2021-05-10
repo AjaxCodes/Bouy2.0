@@ -1,0 +1,22 @@
+.resources__recomended{
+    background-color: #f9f9f9;
+    padding: 40px 40px;
+    padding-bottom: 0;
+}
+.resources{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+    margin-bottom: 40px;
+   
+}
+.resources__vet{
+    display: flex;
+    flex-direction: row-reverse;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+    margin-bottom: 40px;
+   
+}
