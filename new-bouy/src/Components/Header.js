@@ -1,11 +1,62 @@
 import React from "react";
 import "./Header.css";
+import bouycut from "../Images/bouycut.png";
+import LocalHospitalIcon from "@material-ui/icons/LocalHospital";
+import MoodBadIcon from "@material-ui/icons/MoodBad";
+import PolicyIcon from "@material-ui/icons/Policy";
+import PersonIcon from "@material-ui/icons/Person";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import { Link } from "react-router-dom";
+
 
 function Header() {
-  return <div className="header">
-      <h1> header</h1>
-      <h1> header</h1>
-  </div>;
+
+
+  return (
+    <div className="header">
+      <div className="headerLogo">
+        <img className="header__logo" src={bouycut} alt="logo" />
+      </div>
+      <div className="headerIcons">
+        <Link to="/home">
+          <MoodBadIcon />
+        </Link>
+        <Link to="/civ">
+          <div className="headerIcons">
+            <PersonIcon />
+          </div>
+        </Link>
+        <Link to="/vet">
+          <div className="headerIcons">
+            <PolicyIcon />
+          </div>
+        </Link>
+        <Link to="/first">
+          <div className="headerIcons">
+            <LocalHospitalIcon />
+          </div>
+        </Link>
+      </div>
+      <Link to="/chat">
+        <div className="headerCenter">
+          <h1>Chat</h1>
+        </div>
+      </Link>
+      <div className="headerLeft">
+        <Link to="/store">
+          <h1>Storefront</h1>
+        </Link>
+
+       
+        <Link to="/checkout">
+          <div className="headerLeft">
+            <ShoppingCartIcon />
+           
+          </div>
+        </Link>
+      </div>
+    </div>
+  );
 }
 
 export default Header;
