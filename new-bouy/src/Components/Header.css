@@ -1,42 +1,46 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 0;
-    background-color: #ffb735;
-    position: sticky;
-  }
-  .headerLeft {
-    flex: 0.3;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    margin-left: 10px;
-    color: blue;
-  }
-  .headerIcons {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    color: blue;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  .headerCenter {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 20px;
-    color: blue;
-  }
- 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0;
+
+  background: rgba(255, 183, 53, 0.9);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-left: 10px;
+  color: blue;
+}
+.header__icon {
+  margin-right: 50px;
+  font-size: 40px !important;
+  color: blue;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  color: blue;
+}
 
 .header__logo {
-  height: 50px;
+  height: 40px;
   object-fit: contain;
   margin-left: 20px;
 }
 a {
-    color:blue;
-  }
+  color: blue;
+}

@@ -2,65 +2,54 @@ import React from "react";
 import "./Header.css";
 import bouycut from "../Images/bouycut.png";
 import LocalHospitalIcon from "@material-ui/icons/LocalHospital";
-import MoodBadIcon from "@material-ui/icons/MoodBad";
-import PolicyIcon from "@material-ui/icons/Policy";
+import SecurityIcon from "@material-ui/icons/Security";
+import GradeIcon from "@material-ui/icons/Grade";
 import PersonIcon from "@material-ui/icons/Person";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import ChatIcon from '@material-ui/icons/Chat';
-import StorefrontIcon from '@material-ui/icons/Storefront';
+import ChatIcon from "@material-ui/icons/Chat";
+import StorefrontIcon from "@material-ui/icons/Storefront";
+import LockOpenIcon from "@material-ui/icons/LockOpen";
+import LockIcon from '@material-ui/icons/Lock';
 
 import { Link } from "react-router-dom";
 
-
 function Header() {
-
-
   return (
     <div className="header">
-      <div>
-        <img className="header__logo" src={bouycut} alt="logo" />
-      </div >
-      <div className="headerIcons">
-        <Link to="/home">
-          <MoodBadIcon />
-        </Link>
+      <Link to="/">
+        <img className="header__logo" src={bouycut} alt="" />
+      </Link>
 
+      <div className="header__right">
         <Link to="/civ">
-          <div className="headerIcons">
-            <PersonIcon />
-          </div>
+          <PersonIcon className="header__icon" />
         </Link>
 
         <Link to="/vet">
-          <div className="headerIcons">
-            <PolicyIcon />
-          </div>
+          <GradeIcon className="header__icon" />
         </Link>
 
         <Link to="/first">
-          <div className="headerIcons">
-            <LocalHospitalIcon />
-          </div>
+          <SecurityIcon className="header__icon" />
         </Link>
-
       </div>
       <Link to="/chat">
-        <div className="headerCenter">
-          <ChatIcon/>
+        <div className="header__center">
+          <ChatIcon className="header__icon" />
         </div>
       </Link>
-      <div className="headerLeft">
+      <div className="header__left">
         <Link to="/store">
-          <StorefrontIcon/>
+          <StorefrontIcon className="header__icon" />
         </Link>
 
-       
         <Link to="/checkout">
-          <div className="headerLeft">
-            <ShoppingCartIcon />
-           
-          </div>
+          <ShoppingCartIcon className="header__icon" />
         </Link>
+        {/*log in */}
+        <LockOpenIcon className="header__icon"/>
+        {/*log out */}
+        <LockIcon className="header__icon"/>
       </div>
     </div>
   );
