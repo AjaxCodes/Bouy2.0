@@ -2,9 +2,12 @@
   margin-top: 40px;
   width: 285px;
   height: 330px;
-  margin: 20px;
+  margin: 30px;
+  padding-left: 20px;
+  padding-right:20px ;
 }
 .resource__img {
+  object-fit: contain;
   height: 150px;
   width: 250px;
   margin: 8px;
@@ -16,6 +19,7 @@
   padding-right: 30px;
 }
 .resource__text {
+  width: 350px;
   margin-left: 15px;
   color: black;
 }
