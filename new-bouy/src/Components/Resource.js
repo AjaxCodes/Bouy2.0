@@ -1,7 +1,8 @@
 import React from "react";
 import "./Resource.css";
 
-function Resource({ image, summary, listing, title }) {
+
+function Resource({ image, summary, listing, title, }) {
   return (
     <div className="resource">
       <img className="resource__img" src={image} alt="" />
@@ -10,6 +11,8 @@ function Resource({ image, summary, listing, title }) {
           <h4>{title}</h4>
           <p>{summary}</p>
           <p>{listing}</p>
+          
+         
         </div>
       </div>
     </div>
