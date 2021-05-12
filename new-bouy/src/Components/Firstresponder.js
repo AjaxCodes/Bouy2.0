@@ -11,7 +11,7 @@ function Firstresponder() {
         <SecurityIcon /> <SecurityIcon /> <SecurityIcon />
       </h2>
 
-      <div className="resources">
+      <div className="first__responder__resources">
         <Resource
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
           title="LIFELINE"

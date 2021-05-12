@@ -11,7 +11,7 @@ function Vetrean() {
         <GradeIcon /> <GradeIcon />
       </h2>
 
-      <div className="resources__vet">
+      <div className="vetrean__resources">
         <Resource
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
           title="LIFELINE"
