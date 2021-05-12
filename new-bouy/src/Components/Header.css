@@ -20,12 +20,12 @@
   align-items: center;
   padding: 15px;
   margin-left: 10px;
-  color: blue;
+  color: #1F00FB;
 }
 .header__icon {
   margin-right: 50px;
   font-size: 40px !important;
-  color: blue;
+  color: #1F00FB;
 }
 
 .header__center {
@@ -33,7 +33,7 @@
   align-items: center;
   justify-content: space-between;
   margin-left: 20px;
-  color: blue;
+  color: #1F00FB;
 }
 
 .header__logo {
@@ -42,5 +42,5 @@
   margin-left: 20px;
 }
 a {
-  color: blue;
+  color: #1F00FB;
 }

@@ -1,0 +1,20 @@
+.civilian {
+  padding: 40px 40px;
+  padding-bottom: 0;
+}
+h2 {
+  background: rgba(31, 0, 251, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffb735;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.civilian__resources {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
