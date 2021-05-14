@@ -12,7 +12,7 @@ function Civilian() {
       </h2>
 
       <div className="civilian__resources">
-      <Resource
+        <Resource
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
           title="LIFELINE"
           summary="We can all help prevent suicide. The Lifeline provides 24/7,
@@ -52,12 +52,13 @@ function Civilian() {
           listing="https://www.crisistextline.org"
         />
         <Resource
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
-          title="LIFELINE"
-          summary="We can all help prevent suicide. The Lifeline provides 24/7,
-           free and confidential support for people in distress, prevention and 
-           crisis resources for you or your loved ones, and best practices for professionals."
-          listing="https://suicidepreventionlifeline.org"
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1J_VK4nxkKXfSEIgTKE78N3VwTQRdXKFXFg&usqp=CAU"
+          title="World Health Organization"
+          summary="Close to 800 000 people die by suicide every year. Furthermore, for each suicide, there are more than 20 suicide attempts.
+          Suicides and suicide attempts have a ripple effect that impacts on families, friends, colleagues, communities and societies.
+          Suicides are preventable. Much can be done to prevent suicide at individual, community and national levels. 
+          What you can do"
+          listing="https://www.who.int/health-topics/suicide#tab=tab_1"
         />
         <Resource
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
@@ -75,7 +76,7 @@ function Civilian() {
            crisis resources for you or your loved ones, and best practices for professionals."
           listing="https://suicidepreventionlifeline.org"
         />
-         <Resource
+        <Resource
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
           title="LIFELINE"
           summary="We can all help prevent suicide. The Lifeline provides 24/7,
