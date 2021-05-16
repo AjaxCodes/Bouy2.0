@@ -148,11 +148,12 @@ function Resources() {
           and non-Veteran patients. Contact us today."
           listing="https://www.ptsd.va.gov"
         />
-        <Resource 
-        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMN4f1N6WVa8Kgg4YUUdkW8cx2_XCdRUoC6w&usqp=CAU"
-         title="The Columbia Lighthouse Project" 
-         summary="Suicide Prevention for First Responders Resources”" 
-         listing="https://firstwatch.net/suicide-prevention-for-first-responders-resources/" />
+        <Resource
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMN4f1N6WVa8Kgg4YUUdkW8cx2_XCdRUoC6w&usqp=CAU"
+          title="The Columbia Lighthouse Project"
+          summary="Suicide Prevention for First Responders Resources”"
+          listing="https://firstwatch.net/suicide-prevention-for-first-responders-resources/"
+        />
         <Resource
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8N2V5hBxje1_lQ3ZSp6uyXWTJzWnG09LGMQ&usqp=CAU"
           title="PREVENT 22"
@@ -203,30 +204,30 @@ function Resources() {
                Code Green is calling a code alert on the mental health of first responders."
           listing="https://codegreencampaign.org"
         />
-        <Resource 
-        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMN4f1N6WVa8Kgg4YUUdkW8cx2_XCdRUoC6w&usqp=CAU"
-         title="The Columbia Lighthouse Project" 
-         summary="Suicide Prevention for First Responders Resources”" 
-         listing="https://firstwatch.net/suicide-prevention-for-first-responders-resources/" />
+        <Resource
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMN4f1N6WVa8Kgg4YUUdkW8cx2_XCdRUoC6w&usqp=CAU"
+          title="The Columbia Lighthouse Project"
+          summary="Suicide Prevention for First Responders Resources”"
+          listing="https://firstwatch.net/suicide-prevention-for-first-responders-resources/"
+        />
 
-        <Resource 
-        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZmZvTptXWQ4EAVl8pMziUTay9eGn4Gr-i2A&usqp=CAU" 
-        title="SAMHSA" 
-        summary="Disaster Technical Assistance Center Supplemental Research Bulletin
-        First Responders: Behavioral Health Concerns, Emergency Response, and Trauma" 
-        listing="https://www.samhsa.gov/" />
+        <Resource
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZmZvTptXWQ4EAVl8pMziUTay9eGn4Gr-i2A&usqp=CAU"
+          title="SAMHSA"
+          summary="Disaster Technical Assistance Center Supplemental Research Bulletin
+        First Responders: Behavioral Health Concerns, Emergency Response, and Trauma"
+          listing="https://www.samhsa.gov/"
+        />
 
-        <Resource 
-        image="" 
-        title="" 
-        summary="" 
-        listing="" />
-
-        <Resource 
-        image="" 
-        title="" 
-        summary=""
-        listing="" />
+        <Resource
+          image="http://static1.squarespace.com/static/555d1154e4b09b430c18fd39/t/57a3ad3e1b631bd3b094174e/1542237342435/?format=1500w"
+          title="Reviving Responders"
+          summary="Safe Call Now is a resource for public safety employees to speak confidentially with officers, former law enforcement
+         officers, public safety professionals and/or mental healthcare providers who are familiar with your line of work. CONFIDENTIAL,
+          comprehensive, 24-hour crisis referral service for all public safety employees, all emergency services personnel and their family
+           members nationwide."
+          listing="http://www.revivingresponders.com/needhelpnow"
+        />
       </div>
     </div>
   );
