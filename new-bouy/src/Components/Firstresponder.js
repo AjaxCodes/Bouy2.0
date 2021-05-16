@@ -10,8 +10,8 @@ function Firstresponder() {
         <SecurityIcon /> <SecurityIcon /> <SecurityIcon /> First Responders
         <SecurityIcon /> <SecurityIcon /> <SecurityIcon />
       </h2>
-<div className="firstResponder__resources">
-<Resource
+      <div className="firstResponder__resources">
+        <Resource
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
           title="LIFELINE"
           summary="We can all help prevent suicide. The Lifeline provides 24/7,
@@ -30,10 +30,7 @@ function Firstresponder() {
           title="The Green Code Campaign"
           summary="The Code Green Campaign® is a first responder oriented mental health advocacy and education
            organization. Also known as Code Green, we serve all types of first responders. This includes firefighters,
-            EMTs, paramedics, dispatchers, police, corrections, air medical, and search & rescue. Our name is a combination
-             of the color for mental health awareness (green) and the “code alerts” used in emergency services. If someone
-              is having a stroke or heart attack first responders will call a “code stroke” or “code STEMI”. The idea is that
-               Code Green is calling a code alert on the mental health of first responders."
+            EMTs, paramedics, dispatchers, police, corrections, air medical, and search & rescue."
           listing="https://codegreencampaign.org"
         />
         <Resource
@@ -60,11 +57,7 @@ function Firstresponder() {
            members nationwide."
           listing="http://www.revivingresponders.com/needhelpnow"
         />
-
-
-</div>
-      
-     
+      </div>
     </div>
   );
 }

@@ -198,10 +198,7 @@ function Resources() {
           title="The Green Code Campaign"
           summary="The Code Green Campaign® is a first responder oriented mental health advocacy and education
            organization. Also known as Code Green, we serve all types of first responders. This includes firefighters,
-            EMTs, paramedics, dispatchers, police, corrections, air medical, and search & rescue. Our name is a combination
-             of the color for mental health awareness (green) and the “code alerts” used in emergency services. If someone
-              is having a stroke or heart attack first responders will call a “code stroke” or “code STEMI”. The idea is that
-               Code Green is calling a code alert on the mental health of first responders."
+            EMTs, paramedics, dispatchers, police, corrections, air medical, and search & rescue."
           listing="https://codegreencampaign.org"
         />
         <Resource
