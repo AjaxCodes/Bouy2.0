@@ -12,7 +12,7 @@ function Civilian() {
       </h2>
 
       <div className="civilian__resources">
-        <Resource
+      <Resource
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
           title="LIFELINE"
           summary="We can all help prevent suicide. The Lifeline provides 24/7,
@@ -52,38 +52,42 @@ function Civilian() {
           listing="https://www.crisistextline.org"
         />
         <Resource
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1J_VK4nxkKXfSEIgTKE78N3VwTQRdXKFXFg&usqp=CAU"
-          title="World Health Organization"
-          summary="Close to 800 000 people die by suicide every year. Furthermore, for each suicide, there are more than 20 suicide attempts.
-          Suicides and suicide attempts have a ripple effect that impacts on families, friends, colleagues, communities and societies.
-          Suicides are preventable. Much can be done to prevent suicide at individual, community and national levels. 
-          What you can do"
-          listing="https://www.who.int/health-topics/suicide#tab=tab_1"
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-h31ZiAYr8_-6itA3-PD9LgKMermJEcilIw&usqp=CAU"
+          title="American Psychiatric Association"
+          summary="As the 10th leading cause of death in the United States and the second leading cause of death
+          (after accidents) for people aged 10 to 34, suicide is a serious public health problem."
+          listing="https://www.psychiatry.org"
         />
         <Resource
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
-          title="LIFELINE"
-          summary="We can all help prevent suicide. The Lifeline provides 24/7,
-           free and confidential support for people in distress, prevention and 
-           crisis resources for you or your loved ones, and best practices for professionals."
-          listing="https://suicidepreventionlifeline.org"
+          title="National Alliance on Mental Health"
+          summary="Suicidal thoughts, much like mental health conditions, can affect anyone regardless of age, gender
+           or background. In fact, suicide is often the result of an untreated mental health condition. Suicidal thoughts,
+            although common, should not be considered normal and often indicate more serious issues"
+          listing="https://www.nami.org"
         />
         <Resource
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
-          title="LIFELINE"
-          summary="We can all help prevent suicide. The Lifeline provides 24/7,
-           free and confidential support for people in distress, prevention and 
-           crisis resources for you or your loved ones, and best practices for professionals."
-          listing="https://suicidepreventionlifeline.org"
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZ5OdPIVZmksd_tWXQcKUYjQa2R3KCbfIxg&usqp=CAU"
+          title="Public Instruction"
+          summary="DPI’s Gatekeeper Training Module
+          An important step in protecting all students from the dangers of suicide is the ability to recognize the warning
+         signs of suicide ideation and take appropriate steps to keep a suicidal student safe. This new, interactive suicide
+         prevention gatekeeper module helps schools and districts train their students and staff. The module takes approximately
+         20 minutes to complete."
+          listing="https://dpi.wi.gov/sspw/mental-health/youth-suicide-prevention"
         />
         <Resource
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
-          title="LIFELINE"
-          summary="We can all help prevent suicide. The Lifeline provides 24/7,
-           free and confidential support for people in distress, prevention and 
-           crisis resources for you or your loved ones, and best practices for professionals."
-          listing="https://suicidepreventionlifeline.org"
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZ5OdPIVZmksd_tWXQcKUYjQa2R3KCbfIxg&usqp=CAU"
+          title="Public Instruction"
+          summary="DPI’s Gatekeeper Training Module
+          An important step in protecting all students from the dangers of suicide is the ability to recognize the warning
+         signs of suicide ideation and take appropriate steps to keep a suicidal student safe. This new, interactive suicide
+         prevention gatekeeper module helps schools and districts train their students and staff. The module takes approximately
+         20 minutes to complete."
+          listing="https://dpi.wi.gov/sspw/mental-health/youth-suicide-prevention"
         />
+      
+     
       </div>
     </div>
   );
