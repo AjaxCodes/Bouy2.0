@@ -86,31 +86,26 @@ function Resources() {
           listing="https://www.crisistextline.org"
         />
         <Resource
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
-          title="LIFELINE"
-          summary="We can all help prevent suicide. The Lifeline provides 24/7,
-           free and confidential support for people in distress, prevention and 
-           crisis resources for you or your loved ones, and best practices for professionals."
-          listing="https://suicidepreventionlifeline.org"
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-h31ZiAYr8_-6itA3-PD9LgKMermJEcilIw&usqp=CAU"
+          title="American Psychiatric Association"
+          summary="As the 10th leading cause of death in the United States and the second leading cause of death
+          (after accidents) for people aged 10 to 34, suicide is a serious public health problem."
+          listing="https://www.psychiatry.org"
         />
         <Resource
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
-          title="LIFELINE"
-          summary="We can all help prevent suicide. The Lifeline provides 24/7,
-           free and confidential support for people in distress, prevention and 
-           crisis resources for you or your loved ones, and best practices for professionals."
-          listing="https://suicidepreventionlifeline.org"
+          title="National Alliance on Mental Health"
+          summary="Suicidal thoughts, much like mental health conditions, can affect anyone regardless of age, gender
+           or background. In fact, suicide is often the result of an untreated mental health condition. Suicidal thoughts,
+            although common, should not be considered normal and often indicate more serious issues"
+          listing="https://www.nami.org"
         />
         <Resource
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvK9zDhS6OulLpw0LsllErEaBO3-2Sdv94fQ&usqp=CAU"
-          title="LIFELINE"
-          summary="We can all help prevent suicide. The Lifeline provides 24/7,
-           free and confidential support for people in distress, prevention and 
-           crisis resources for you or your loved ones, and best practices for professionals."
-          listing="https://suicidepreventionlifeline.org"
+          title="____"
+          summary="____"
+          listing="https://"
         />
-      
-      
       </div>
 
       <h2>
