@@ -15,30 +15,33 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
+
           <Route path="/civ">
             <Header />
             <Civilian />
           </Route>
-
           <Route path="/vet">
             <Header />
             <Vetrean />
           </Route>
-
           <Route path="/first">
             <Header />
             <Firstresponder />
           </Route>
+
 
           <Route path="/chat">
             <Header />
             <Chat />
           </Route>
 
+
+
           <Route path="/store">
             <Header />
             <Storefront/>
           </Route>
+
 
           <Route path="/">
             <Header />
