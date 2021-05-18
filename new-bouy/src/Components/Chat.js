@@ -1,10 +1,13 @@
 import React from "react";
+import Messages from "./Messages";
+import Sidebar from "./Sidebar";
 import "./Chat.css";
 
 function Chat() {
   return (
     <div className="chat">
-      <h1>chat</h1>
+      <Sidebar/>
+      <Messages/>
     </div>
   );
 }
