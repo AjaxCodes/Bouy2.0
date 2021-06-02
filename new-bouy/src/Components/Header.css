@@ -20,12 +20,12 @@
   align-items: center;
   padding: 15px;
   margin-left: 10px;
-  color: #1F00FB;
+  color: #1f00fb;
 }
 .header__icon {
   margin-right: 50px;
   font-size: 40px !important;
-  color: #1F00FB;
+  color: #1f00fb;
 }
 
 .header__center {
@@ -33,7 +33,7 @@
   align-items: center;
   justify-content: space-between;
   margin-left: 20px;
-  color: #1F00FB;
+  color: #1f00fb;
 }
 
 .header__logo {
@@ -42,5 +42,10 @@
   margin-left: 20px;
 }
 a {
-  color: #1F00FB;
+  color: #1f00fb;
+}
+.header__cart__number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f00fb;
 }

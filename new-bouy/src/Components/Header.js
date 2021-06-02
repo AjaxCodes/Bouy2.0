@@ -36,16 +36,17 @@ function Header() {
         <div className="header__center">
           <ChatIcon className="header__icon" />
         </div>
-
       </Link>
       <div className="header__left">
         <Link to="/store">
           <StorefrontIcon className="header__icon" />
         </Link>
 
+        <span className="header__cart__number">0</span>
         <Link to="/cart">
           <ShoppingCartIcon className="header__icon" />
         </Link>
+        
         {/*log in */}
         <LockOpenIcon className="header__icon" />
         {/*log out */}
