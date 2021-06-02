@@ -9,7 +9,6 @@ import ChatIcon from "@material-ui/icons/Chat";
 import StorefrontIcon from "@material-ui/icons/Storefront";
 import LockOpenIcon from "@material-ui/icons/LockOpen";
 import LockIcon from "@material-ui/icons/Lock";
-
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -32,17 +31,19 @@ function Header() {
           <SecurityIcon className="header__icon" />
         </Link>
       </div>
+
       <Link to="/chat">
         <div className="header__center">
           <ChatIcon className="header__icon" />
         </div>
+
       </Link>
       <div className="header__left">
         <Link to="/store">
           <StorefrontIcon className="header__icon" />
         </Link>
 
-        <Link to="/checkout">
+        <Link to="/cart">
           <ShoppingCartIcon className="header__icon" />
         </Link>
         {/*log in */}
