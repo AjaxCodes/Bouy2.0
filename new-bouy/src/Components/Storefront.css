@@ -1,0 +1,5 @@
+.storefront {
+  background: #1f00fb;
+  background: -webkit-linear-gradient(to left, #1f00fb, #ffb735);
+  background: linear-gradient(to left, #1f00fb, #ffb735);
+}
