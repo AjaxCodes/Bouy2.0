@@ -106,8 +106,7 @@ function Resources() {
           summary="DPI’s Gatekeeper Training Module
           An important step in protecting all students from the dangers of suicide is the ability to recognize the warning
          signs of suicide ideation and take appropriate steps to keep a suicidal student safe. This new, interactive suicide
-         prevention gatekeeper module helps schools and districts train their students and staff. The module takes approximately
-         20 minutes to complete."
+         prevention gatekeeper module helps schools and districts train their students and staff. "
           listing="https://dpi.wi.gov/sspw/mental-health/youth-suicide-prevention"
         />
       </div>
