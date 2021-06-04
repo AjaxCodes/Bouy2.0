@@ -41,6 +41,10 @@ function App() {
             <Header />
             <Storefront/>
           </Route>
+          <Route path="/cart">
+            <Header />
+            <Storefront/>
+          </Route>
 
 
           <Route path="/">

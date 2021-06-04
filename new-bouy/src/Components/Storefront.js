@@ -22,87 +22,83 @@ function Storefront() {
         <div className="storefront__row">
           <Products
             title="Black Shirt Orange Logo"
-            price="20"
+            price={20.0}
             image={blackorange}
           />{" "}
           <Products
             title="White Shirt Blue Logo"
-            price="20"
+            price={20.0}
             image={blackblue}
+          />
+        </div>
+
+        <div className="storefront__row">
+          <Products
+            title="Black Shirt Green Logo"
+            price={20.0}
+            image={blackgreen}
+          />
+          <Products
+            title="White Shirt Pink Logo"
+            price={20.0}
+            image={blackpink}
+          />
+          <Products
+            title="White Shirt Yellow Logo"
+            price={20.0}
+            image={blackyellow}
+          />
+          <Products
+            title="Black Shirt Purple Logo"
+            price={20.0}
+            image={blackpurple}
+          />
+          <Products
+            title="Black Shirt Purple Logo"
+            price={20.0}
+            image={blackbblue}
           />
         </div>
         <div className="storefront__row">
           <Products
             title="Black Shirt Orange Logo"
-            price="20"
+            price={20.0}
             image={whiteorange}
           />
           <Products
             title="White Shirt Blue Logo"
-            price="20"
+            price={20.0}
             image={whiteblue}
-          />
-        </div>
-        <div className="storefront__row">
-          <Products
-            title="Black Shirt Green Logo"
-            price="20"
-            image={blackgreen}
-          />
-          <Products
-            title="White Shirt Pink Logo"
-            price="20"
-            image={blackpink}
-          />
-          <Products
-            title="White Shirt Yellow Logo"
-            price="20"
-            image={blackyellow}
-          />
-          <Products
-            title="Black Shirt Purple Logo"
-            price="20"
-            image={blackpurple}
-          />
-           <Products
-            title="Black Shirt Purple Logo"
-            price="20"
-            image={blackbblue}
           />
         </div>
 
         <div className="storefront__row">
           <Products
             title="Black Shirt Green Logo"
-            price="20"
+            price={20.0}
             image={whitegreen}
           />
           <Products
             title="White Shirt Pink Logo"
-            price="20"
+            price={20.0}
             image={whitepink}
           />
           <Products
             title="White Shirt Yellow Logo"
-            price="20"
+            price={20.0}
             image={whiteyellow}
           />
 
           <Products
             title="Black Shirt Purple Logo"
-            price="20"
+            price={20.0}
             image={whitepurple}
           />
-            <Products
+          <Products
             title="Black Shirt Purple Logo"
-            price="20"
+            price={20.0}
             image={whitebblue}
           />
-        </div>
-
-        <div className="storefront__row">
-         
-        
         </div>
       </div>
     </div>
