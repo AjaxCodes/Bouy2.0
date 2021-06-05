@@ -7,6 +7,7 @@ import Vetrean from "./Components/Vetrean";
 import Firstresponder from "./Components/Firstresponder";
 import Chat from "./Components/Chat";
 import Storefront from "./Components/Storefront";
+import Cart from "./Components/Cart";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -14,43 +15,32 @@ function App() {
   return (
     <Router>
       <div className="app">
+        <Header />
         <Switch>
-
           <Route path="/civ">
-            <Header />
             <Civilian />
           </Route>
           <Route path="/vet">
-            <Header />
             <Vetrean />
           </Route>
           <Route path="/first">
-            <Header />
             <Firstresponder />
           </Route>
 
-
           <Route path="/chat">
-            <Header />
             <Chat />
           </Route>
 
-
-
           <Route path="/store">
-            <Header />
-            <Storefront/>
+            <Storefront />
           </Route>
           <Route path="/cart">
-            <Header />
-            <Storefront/>
+            <Cart />
           </Route>
 
-
           <Route path="/">
-            <Header />
             <Resources />
-            {/* null because must be last and promise mutes anything below it*/}
+            {/* null because must be last and promise mute anything below it*/}
           </Route>
         </Switch>
       </div>
